@@ -136,12 +136,12 @@ export default function Dasbord() {
                           <span>Wallet</span>
                           <span className={classes.plus}>{walletIsSelected ? <i class="fas fa-chevron-up"></i> : <i class="fas fa-chevron-down"></i>}</span>
                           <ul className={walletClasses}>
-                          <li><a href="#"><i class="fas fa-chevron-right"></i> Add Funds</a></li>
-                          <li><a href="#"><i class="fas fa-chevron-right"></i> Pending Deposits</a></li>
-                          <li><a href="#"><i class="fas fa-chevron-right"></i> Transfer</a></li>
-                          <li><a href="#"><i class="fas fa-chevron-right"></i> Wallet  Change</a></li>
-                          <li><a href="#"><i class="fas fa-chevron-right"></i> Activation Wallet</a></li>
-                          <li><a href="#"><i class="fas fa-chevron-right"></i> Cash Wallet</a></li>
+                          <li><Link to="/addfunds"><i class="fas fa-chevron-right"></i> Add Funds</Link></li>
+                           <li><Link to="/pendingdepo"><i class="fas fa-chevron-right"></i> Pending Deposits</Link></li>
+                                <li><Link to="/transfer"><i class="fas fa-chevron-right"></i> Transfer</Link></li>
+                                <li><Link to="/wallet-change"><i class="fas fa-chevron-right"></i> Wallet  Change</Link></li>
+                                <li><Link to="/activation-wallet"><i class="fas fa-chevron-right"></i> Activation Wallet</Link></li>
+                                <li><Link to="/"><i class="fas fa-chevron-right"></i> Cash Wallet</Link></li>
                           </ul>
                       </a>
                 </li>
