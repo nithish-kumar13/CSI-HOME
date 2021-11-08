@@ -11,12 +11,14 @@ import Pendingdepo from './components/pendingdepo';
 import Transfer from './components/transfer';
 import WalletChange from './components/wallet_change';
 import ActivationWallet from './components/activation_wallet';
+import CashWallet from './components/cash_wallet';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   
 } from "react-router-dom";
+
 
 
 
@@ -84,6 +86,12 @@ function App() {
                <div className='main-div'>
               <Dasbord/>
                <ActivationWallet/>
+               </div>
+          </Route>
+          <Route path="/cash-wallet" exact>
+               <div className='main-div'>
+              <Dasbord/>
+               <CashWallet/>
                </div>
           </Route>
     </Switch>

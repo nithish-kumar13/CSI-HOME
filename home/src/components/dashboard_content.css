@@ -1,7 +1,7 @@
 .container{
   background-color: #192032;
   position: absolute;
-  height: 100%;
+  height:100%;
   overflow-y: scroll;
   /*width: 92%;*/
   margin-top: 100px;

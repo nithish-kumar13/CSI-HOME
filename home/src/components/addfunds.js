@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
-import Money from './images/money-bag.png';
 import './addfunds.css'
 import UpBar from "./UpBar";
 

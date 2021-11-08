@@ -141,7 +141,7 @@ export default function Dasbord() {
                                 <li><Link to="/transfer"><i class="fas fa-chevron-right"></i> Transfer</Link></li>
                                 <li><Link to="/wallet-change"><i class="fas fa-chevron-right"></i> Wallet  Change</Link></li>
                                 <li><Link to="/activation-wallet"><i class="fas fa-chevron-right"></i> Activation Wallet</Link></li>
-                                <li><Link to="/"><i class="fas fa-chevron-right"></i> Cash Wallet</Link></li>
+                                <li><Link to="/cash-wallet"><i class="fas fa-chevron-right"></i> Cash Wallet</Link></li>
                           </ul>
                       </a>
                 </li>
